@@ -1,0 +1,29 @@
+nav{
+    height: 50px;
+    background-color: lightgray;
+    line-height: 30px;
+    font-size: 25px;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+nav > ul > li{
+    float: left;
+}
+nav li:hover{
+    background-color: darkgray;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    padding: 0;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
